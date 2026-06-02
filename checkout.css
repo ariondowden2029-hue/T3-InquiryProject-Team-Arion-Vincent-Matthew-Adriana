@@ -3,3 +3,24 @@
     margin: 0;
     padding: 0;
 }
+
+.location{
+    width: 40%;
+    border: solid black 15px; 
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.map{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
