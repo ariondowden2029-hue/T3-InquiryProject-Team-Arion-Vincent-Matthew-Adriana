@@ -1,5 +1,85 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+      body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffd6e7;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #ff9ec4;
+            padding: 3vh;
+            text-align: center;
+            border-bottom: 4px solid hotpink;
+        }
+        main {
+            width: 90vw;
+            margin: 5vh auto;
+            padding: 20px;
+            background-color: white;
+            border: 3px solid pink;
+        }
+        footer {
+            background-color: #ff9ec4;
+            text-align: center;
+            padding: 2vh;
+            margin-top: 5vh;
+        }
+        h1 {
+            display: block;
+            color: white;
+        }
+        h2 {
+            color: deeppink;
+        }
+        h3 {
+            display: inline;
+            color: #d63384;
+        }
+        p {
+            font-size: 18px;
+        }
+        ul {
+            list-style-type: square;
+        }
+        li {
+            display: inline-block;
+            margin: 10px;
+            padding: 5px;
+        }
+        img {
+            width: 30%;
+            height: 30vh;
+            border: 3px solid pink;
+            margin: 10px;
+        }
+        a {
+            display: inline;
+            color: purple;
+            text-decoration: none;
+        }
+        /* Class Selectors */
+        .menu-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            border: 2px hotpink;
+            margin: 20px;
+            padding: 20px;
+        }
+        .menu-item {
+            display: inline-block;
+            width: 25%;
+            background-color: #ffe6f0;
+            border: 2px solid hotpink;
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+        .special {
+            display: block;
+            width: 60%;
+            margin: 20px auto;
+            padding: 15px;
+            border: 3px dotted deeppink;
+            text-align: center;
+        }
