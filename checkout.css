@@ -20,7 +20,37 @@
     display:flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
+
+.address{
+    width:30%;
+}
+
+body{
+    background-color:lightcoral;
+}
+
+.deals{
+    color:white;
+    border: solid 5px white;
+    width:30vw;
+}
+
+.apply{
+    background-color: greenyellow;
+    display:flex;
+    justify-content: flex-end;
+}
+
+
+.checkout{
+    display:flex;
+    justify-content: flex-end;
+}
+
+
+
 
 
 
